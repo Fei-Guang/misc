@@ -174,8 +174,8 @@ public class LinkedlistATN {
         list.head2 = null; 
         list.result = null; 
         list.carry = 0; 
-        int arr1[] = { 9, 9, 9 }; 
-        int arr2[] = { 1, 8 }; 
+        int arr1[] = { 9, 9, 9, 8, 7 }; 
+        int arr2[] = { 1, 8, 6, 9 }; 
   
         // Create first list as 9->9->9 
         for (int i = arr1.length - 1; i >= 0; --i) 
